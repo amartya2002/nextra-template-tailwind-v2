@@ -1,5 +1,19 @@
 {
-    "docs": "Introduction",
-    "installation": "Installation",
-    "components": "Components"
-}
+    "index": {
+      "title": "Home",
+      "type": "page"
+    },
+    "frameworks": {
+      "title": "Frameworks",
+      "type": "page"
+    },
+    "fruits": {
+      "title": "Fruits",
+      "type": "page"
+    },
+    "about": {
+      "title": "About",
+      "type": "page"
+    }
+  }
+  
