@@ -31,5 +31,16 @@ export default {
     //   return <>{title}</>;
     // },
   },
+  footer: {
+    text: (
+      <span>
+        MIT {new Date().getFullYear()} ©{' '}
+        <a href="https://nextra.site" target="_blank">
+          Entropy UI
+        </a>
+        .
+      </span>
+    )
+  },
   gitTimestamp:false
 };
