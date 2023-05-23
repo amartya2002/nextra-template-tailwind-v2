@@ -1,0 +1,31 @@
+{
+ 
+  "Getting Started": {
+    "type": "separator",
+    "title": "Getting Started"
+  },
+
+  "introduction": "Introduction",
+"installation": "Installation",
+"Design System": {
+  "type": "separator",
+  "title": "Design System"
+},
+  "figma": "Figma",
+
+  "Components": {
+    "type": "separator",
+    "title": "Components"
+  },
+  "components":"Components",
+    "contribute": "Contribute",
+    "github_link": {
+      "title": "External link",
+      "href": "https://github.com/shuding/nextra",
+      "newWindow": true
+    }
+    
+  }
+  
+
+  

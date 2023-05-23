@@ -1,19 +1,50 @@
 {
     "index": {
-      "title": "Home",
-      "type": "page"
+      "type": "page",
+      "title": "Home",  
+      "theme": {
+        "layout": "full",
+        "breadcrumb": false,
+        "footer": false,
+        "sidebar": false,
+        "toc": false,
+        "pagination": false
+      }
+   
+    
     },
-    "frameworks": {
-      "title": "Frameworks",
-      "type": "page"
+    "Docs": {
+      "title": "Docs",
+      "type": "page",
+      
+      "theme": {
+       
+        "breadcrumb": true,
+        "footer": false,
+        "sidebar": true,
+        "toc": false,
+        "pagination": true
+      }
     },
     "fruits": {
       "title": "Fruits",
       "type": "page"
     },
     "about": {
-      "title": "About",
-      "type": "page"
+      "title": "About us",
+      "type": "menu",
+      "items": {
+        "vision": {
+          "title": "Our Vision",
+          "href": "/about",
+          "newWindow": true
+        },
+        "contact": {
+          "title": "Contact Us",
+          "href": "mailto:hi@example.com"
+        }
+        
+      }
     }
   }
   
