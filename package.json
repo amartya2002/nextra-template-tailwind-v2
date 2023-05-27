@@ -1,9 +1,12 @@
 {
-  "name": "docs-template1",
+  "name": "docs-template2",
+  "version": "1.0.0",
   "author": "Amartya Sinha",
   "license": "MIT",
   "scripts": {
-    "export": "next build && next export"
+    "dev": "next dev",
+    "build": "next build && next export -o build",
+    "start": "next start"
   },
   "dependencies": {
     "next": "^13.3.1",
