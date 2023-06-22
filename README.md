@@ -1,4 +1,4 @@
-# Create Beautiful Documentation Sites using Nextra and Tailwind CSS
+# Create Functional Documentation Sites using Nextra and Tailwind CSS
 ## Local Development
 
 First, run `yarn install` to install the dependencies.
