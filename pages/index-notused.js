@@ -1,8 +1,9 @@
 import Link from "next/link"
+import Hero from "../components/Hero"
 const index =()=> {
   return (
     <section className=" mt-24 mx-6 md:mx-20 ">
-
+<Hero/>
     <div className=" space-y-1 max-w-2xl text-dark ">
         <p className="text-4xl md:text-6xl   font-regular ">Simplified Docs,
         </p>
