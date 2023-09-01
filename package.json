@@ -5,10 +5,16 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o build",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export && touch out/.nojekyll",
+    "lint": "next lint --max-warnings=0",
+    "type-check": "tsc",
+    "deploy": "gh-pages -d out -t true"
+   
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "next": "^13.3.1",
     "nextra": "^2.4.2",
     "nextra-theme-docs": "^2.4.2",
