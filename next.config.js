@@ -11,6 +11,7 @@ const withNextra = require('nextra')({
     images: {
       unoptimized: true,
     },
+    output: 'export',
     trailingSlash: true,
   assetPrefix,
   basePath: assetPrefix,
