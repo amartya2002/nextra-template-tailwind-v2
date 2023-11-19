@@ -3,18 +3,15 @@ const withNextra = require('nextra')({
     themeConfig: './theme.config.jsx',
   });
 
-  const isProduction = process.env.NODE_ENV === "production";
-  const assetPrefix = isProduction ? "/reading-notes" : "";
+  
 
   module.exports = {
     ...withNextra(),
     images: {
       unoptimized: true,
     },
-    output: 'export',
-    trailingSlash: true,
-  assetPrefix,
-  basePath: assetPrefix,
+    
+    assetPrefix: './'
   };
    
   // If you have other Next.js configurations, you can pass them as the parameter:
