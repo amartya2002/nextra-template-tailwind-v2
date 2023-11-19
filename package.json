@@ -11,7 +11,6 @@
     "lint": "next lint --max-warnings=0",
     "type-check": "tsc",
     "deploy": "gh-pages -d out -t true"
-   
   },
   "dependencies": {
     "gh-pages": "^6.0.0",
@@ -23,16 +22,16 @@
   },
   "devDependencies": {
     "@types/node": "20.2.5",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.23",
-    "tailwindcss": "^3.3.1",
-    "typescript": "5.0.4",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
+    "autoprefixer": "^10.4.14",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "eslint-config-prettier": "^9.0.0",
-    "lint-staged": "^14.0.1"
+    "lint-staged": "^14.0.1",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1",
+    "typescript": "5.0.4"
   },
   "lint-staged": {
     "src/**/*.{ts,json,md}": [
