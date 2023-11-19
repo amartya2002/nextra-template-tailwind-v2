@@ -4,7 +4,7 @@ const withNextra = require('nextra')({
   });
 
   const isProduction = process.env.NODE_ENV === "production";
-const assetPrefix = isProduction ? "/reading-notes" : "";
+const assetPrefix = isProduction ? "/nextra-template-tailwind-v2" : "";
 
   module.exports = {
     ...withNextra(),
@@ -15,7 +15,7 @@ const assetPrefix = isProduction ? "/reading-notes" : "";
     trailingSlash: true,
   assetPrefix,
   basePath: assetPrefix,
-  
+
   };
    
   // If you have other Next.js configurations, you can pass them as the parameter:
