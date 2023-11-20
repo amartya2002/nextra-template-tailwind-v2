@@ -11,7 +11,7 @@
     "lint": "next lint --max-warnings=0",
     "type-check": "tsc",
     "deploy": "gh-pages -d out -t true",
-    "deploy-script": "git add . && git commit -m 'Awesome' && yarn export && yarn deploy"
+    "deploy-script": "git add . && git commit -m 'Awesome' && npm run export && npm run deploy"
 
   },
   "dependencies": {
