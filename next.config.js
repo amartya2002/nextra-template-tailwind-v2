@@ -3,7 +3,8 @@ const withNextra = require('nextra')({
     themeConfig: './theme.config.jsx',
   });
 
- 
+  const isProduction = process.env.NODE_ENV === "production";
+  const assetPrefix = isProduction ? "/nextra-template-tailwind-v2" : "";
 
   module.exports = {
     ...withNextra(),
@@ -12,8 +13,8 @@ const withNextra = require('nextra')({
     },
     
     trailingSlash: true,
-  assetPrefix:"/nextra-template-tailwind-v2" ,
-  basePath: "/nextra-template-tailwind-v2" ,
+    assetPrefix,
+    basePath: assetPrefix,
 
   };
    
