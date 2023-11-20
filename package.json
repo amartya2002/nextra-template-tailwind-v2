@@ -10,7 +10,9 @@
     "export": "next build && next export && touch out/.nojekyll",
     "lint": "next lint --max-warnings=0",
     "type-check": "tsc",
-    "deploy": "gh-pages -d out -t true"
+    "deploy": "gh-pages -d out -t true",
+    "deploy-script": "git add . && git commit -m 'Awesome' && yarn export && yarn deploy"
+
   },
   "dependencies": {
     "gh-pages": "^6.0.0",
