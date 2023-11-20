@@ -11,7 +11,7 @@ const index = () => {
               Find your next favorite<br />products before everyone
             </p>
             <p className="max-w-xl mx-auto mt-4 text-base lg:text-xl text-slate-500">
-              Bridging the gap between Makers and Users with early access and early feedback.
+              Bridging the gap between designers and coders with early access and early feedback.
             </p>
           </div>
         </div>
