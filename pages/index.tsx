@@ -146,7 +146,7 @@ const index = () => {
       <div className="relative max-w-6xl p-10 overflow-hidden border-t-2 border-orange-500 bg-white rounded-3xl lg:p-20 shadow-2xl">
         <div className="relative max-w-lg">
           <div><p className="text-2xl font-medium tracking-tight text-black sm:text-4xl">
-Nextra Docs Template
+hello
 </p>
 <p className="max-w-xl mt-4 text-base tracking-tight text-gray-600">
 You can create stunning documentation using Nextra, but the page structure and configuration can become convoluted at times. This template can serve as a convenient starting point.
