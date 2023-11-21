@@ -148,12 +148,12 @@ const index = () => {
 Nextra Docs Template
 </p>
 <p className="max-w-xl mt-4 text-base tracking-tight text-gray-600">
-You can create awesome documentations using Nextra, but the page structure and the config can get messy at times! This template can be used as a starting point.
+You can create stunning documentation using Nextra, but the page structure and configuration can become convoluted at times. This template can serve as a convenient starting point.
 </p>
 </div>
           <div className="flex flex-col items-center justify-center gap-3 mt-10 lg:flex-row lg:justify-start">
-            <a href="/docs/introduction" className="items-center justify-center w-full px-4 py-2 text-center text-gray-200 duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black">
-             Go to Docs →
+            <a href="/Docs/introduction" className="items-center justify-center w-full px-4 py-2 text-center text-gray-200 duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black">
+             Go to Docs 
             </a>
             <a href="https://nextra.site/" className="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
               Learn more
