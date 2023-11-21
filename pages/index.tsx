@@ -156,9 +156,9 @@ You can create stunning documentation using Nextra, but the page structure and c
             <Link href="Docs/introduction" className="items-center justify-center w-full px-4 py-2 text-center text-gray-200 duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black">
              Go to Docs 
             </Link>
-            <a href="https://nextra.site/" className="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <Link target='_blank' href="https://nextra.site/" className="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
       </div>
